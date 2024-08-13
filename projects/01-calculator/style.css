@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+    width: 30vw;
+    padding: 2rem;
+    background-color: #555;
+}
+
+.display {
+    width: 100%;
+    height: 5rem;
+    background: #fff;
+    margin-bottom: 1rem;
+}
+
+.calculator {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    gap: 1rem;
+}
+
+.data {
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.data:hover {
+    background-color: #ccc;
+}
