@@ -2,13 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Greeting | JS Logical</title>
+    <title>Tip Calculator | JS Logical</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="../../style.css" />
   </head>
   <body>
-    <h1 class="title">Simple Greeting Message</h1>
+    <h1 class="title">Tip Calculator</h1>
     <div class="container">
+      <p class="message">Your tips & total amount would be displayed here!</p>
+      <input type="number" placeholder="Enter your bill amount" class="input" />
+      <div class="tip_container">
+        <p class="tip_text">Enter your tip:</p>
+        <div class="tip">
+          <button value="10" class="tip_amount">10%</button>
+          <button value="15" class="tip_amount">15%</button>
+          <button value="20" class="tip_amount">20%</button>
+        </div>
+      </div>
+      <button class="btn">Calculate</button>
     </div>
     <script src="./script.js"></script>
   </body>
