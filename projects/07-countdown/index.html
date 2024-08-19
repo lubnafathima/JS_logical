@@ -2,13 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Greeting | JS Logical</title>
+    <title>Countdown | JS Logical</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="../../style.css" />
   </head>
   <body>
-    <h1 class="title">Simple Greeting Message</h1>
+    <h1 class="title">Countdown Timer</h1>
     <div class="container">
+      <p class="message">Your countdown will be displayed here!</p>
+      <!-- <input type="text" placeholder="Set your timer" class="input" /> -->
+      <div class="countdown">
+        <input type="text" placeholder="0" value="0" class="input hour" />
+        <p class="colon">:</p>
+        <input type="text" placeholder="0" value="0" class="input minute" />
+        <p class="colon">:</p>
+        <input type="text" placeholder="0" value="0" class="input second" />
+      </div>
+      <button class="btn">Start</button>
     </div>
     <script src="./script.js"></script>
   </body>
