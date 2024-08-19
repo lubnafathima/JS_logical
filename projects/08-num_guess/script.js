@@ -9,15 +9,21 @@ btn.addEventListener("click", () => {
   
   if (guess === "" || isNaN(guess)) {
     message.textContent = "Enter a valid number";
+
   } else {
+
     if (guess > number) {
       message.textContent = guess + " is too high!";
+
     } else if (guess < number) {
       message.textContent = guess + " is too low!";
+
     } else {
       message.textContent = guess + " is the correct number!";
       number = Math.floor(Math.random() * 10);
+
     }
   }
+  
   input.value = "";
 });
