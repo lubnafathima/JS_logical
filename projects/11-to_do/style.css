@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  min-height: 10vh;
+  box-shadow: 0px 0px 5px #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.main {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+}
+
+.complete_btn {
+  background-color: #4BB543;
+}
+
+.complete_btn:hover {
+  background-color: #008000;
+}
+
+.pending_btn {
+  background-color: #DC3545;
+}
+
+.pending_btn:hover {
+  background-color: #a02a35;
+}
+
+.all_btn {
+  background-color: #24A0ED;
+}
+
+.all_btn:hover {
+  background-color: #1c81bb;
+}
+
+.new_task {
+  width: 60vw;
+  height: 10vh;
+  margin: 0;
+  padding: .5rem 1.25rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkbox {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.new_task_text {
+  width: 100%;
+  text-align: start;
+  font-size: 1.25rem;
+}
+
+.delete_btn {
+  background-color: #DC3545;
+  color: #fff;
+  color: #000;
+  border: none;
+  font-size: 2rem;
+  padding: 0 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input_container {
+  width: 100%;
+  min-height: 10vh;
+  box-shadow: 0px 0px 5px #ccc;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fff;
+}
+
+.task {
+    width: 53vw;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.add_btn {
+    background-color: #4BB543;
+    border: 1px solid #4BB543;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+}
+
+.add_btn:hover {
+    background-color: #008000;
+}
